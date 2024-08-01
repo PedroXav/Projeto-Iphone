@@ -1,0 +1,16 @@
+package servico;
+
+import Projeto.ReprodutorMusical;
+
+public class ReprodutorMusicalBasico implements ReprodutorMusical{
+    private void tocar(){
+        System.out.println("Tocando Música...");
+    }
+    public void pausar(){
+        System.out.println("Música Pausada");
+    }
+    public void selecionarMusica(String musica){
+        System.out.println("Selecionando" + " " + musica);
+        tocar();
+    }
+}

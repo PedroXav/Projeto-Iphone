@@ -1,0 +1,16 @@
+package servico;
+
+import Projeto.NavegadorInternet;
+
+public class NavegadorBasico implements NavegadorInternet{
+    public void exibirPagina(String url){
+        System.out.println("Exibindo Página...");
+    }
+    public void adicionarNovaAba(){
+        System.out.println("Adicionando Nova Aba...");
+    }
+
+    public void atualizar(){
+        System.out.println("Atualizando...");
+    }
+}
