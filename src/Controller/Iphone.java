@@ -8,35 +8,35 @@ import src.Services.ReprodutorMusicalBasico;
 import src.Services.Telefone;
 
 public class Iphone implements NavegadorInternet, ReprodutorMusical, AparelhoTelefonico   {
-        private final ReprodutorMusical musica;
+        private final ReprodutorMusical reprodutorMusicalBasico;
         private final AparelhoTelefonico telefone;
-        private final NavegadorInternet navegadorWeb;
+        private final NavegadorInternet navegadorBasico;
 
         public Iphone(){
-            this.musica = new ReprodutorMusicalBasico();
+            this.reprodutorMusicalBasico = new ReprodutorMusicalBasico();
             this.telefone = new Telefone();
-            this.navegadorWeb = new NavegadorBasico();
+            this.navegadorBasico = new NavegadorBasico();
                 
         }
 
         @Override
         public void tocarMusica(){
-            musica.tocarMusica();
+            reprodutorMusicalBasico.tocarMusica();
         }
 
         @Override
         public void pausarMusica(){
-           musica.pausarMusica();
+            reprodutorMusicalBasico.pausarMusica();
         }
     
         @Override
         public void selecionarMusica(String musica){
-           this.musica.selecionarMusica(musica);
+           reprodutorMusicalBasico.selecionarMusica(musica);
         }
 
         @Override
-        public void ligarNumero(String numero){
-            telefone.ligarNumero(numero);
+        public void ligar(String numero){
+            telefone.ligar(numero);
         }
     
         @Override
@@ -51,17 +51,17 @@ public class Iphone implements NavegadorInternet, ReprodutorMusical, AparelhoTel
 
         @Override
         public void exibirPagina(String url){
-            navegadorWeb.exibirPagina(url);
+            navegadorBasico.exibirPagina(url);
         }
 
         @Override
         public void adicionarNovaAba(){
-            navegadorWeb.adicionarNovaAba();
+            navegadorBasico.adicionarNovaAba();
           }
 
         @Override
         public void atualizarPagina(){
-            navegadorWeb.atualizarPagina();
+            navegadorBasico.atualizarPagina();
         }
             
 

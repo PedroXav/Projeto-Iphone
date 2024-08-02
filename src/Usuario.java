@@ -9,7 +9,7 @@ public class Usuario {
         iphone.selecionarMusica("Metronony - The Look");
         iphone.pausarMusica();
         
-        iphone.ligarNumero("13483055656");
+        iphone.ligar("13483055656");
         iphone.atender();
         iphone.iniciarCorreioVoz();
 

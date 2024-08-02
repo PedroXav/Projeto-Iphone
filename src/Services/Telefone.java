@@ -5,7 +5,7 @@ import src.Base.AparelhoTelefonico;
 public class Telefone implements AparelhoTelefonico{
     
     @Override
-    public void ligarNumero(String numero){
+    public void ligar(String numero){
         System.out.println("Ligando..." + " " + numero);
        
     }

@@ -1,6 +1,6 @@
 package src.Base;
 public interface AparelhoTelefonico {
-    public void ligarNumero(String numero);
+    public void ligar(String numero);
     public void atender();
     public void iniciarCorreioVoz();
 }
