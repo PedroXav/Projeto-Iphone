@@ -1,7 +1,9 @@
 # Projeto Iphone
+Desafio proposto no bootcamp Desenvolvimento Java com IA promovido pela DIO e a empresa GFT. 
 
-# Desafio do bootcamp GFT - Desenvolvimento Java com IA
+# Sobre o projeto:
+Neste projeto coloquei em prática os conceitos de programação orientada a objetos e modelagem UML. Utilizei a ferramenta de modelagem Draw.io para elaborar a diagramação das classes e interfaces, representando as funções do iPhone como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet. 
 
-# Neste projeto foi implementado métodos simples atuando funções de ligações, correio de voz, selecionar, gerenciamento básico de músicas e ainda navegar na web.
+#
+![GIF 1]()
 
- 
