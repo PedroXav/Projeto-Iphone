@@ -1,6 +1,6 @@
-package Projeto;
+package src.Base;
 public interface ReprodutorMusical {
-    public void tocar();
-    public void pausar ();
+    public void tocarMusica();
+    public void pausarMusica ();
     public void selecionarMusica(String musica);
 }

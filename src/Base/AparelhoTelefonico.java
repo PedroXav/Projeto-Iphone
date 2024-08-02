@@ -1,4 +1,4 @@
-package Projeto;
+package src.Base;
 public interface AparelhoTelefonico {
     public void ligarNumero(String numero);
     public void atender();

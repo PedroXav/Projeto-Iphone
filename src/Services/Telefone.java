@@ -1,19 +1,21 @@
-package servico;
+package src.Services;
 
-
-import Projeto.AparelhoTelefonico;
+import src.Base.AparelhoTelefonico;
 
 public class Telefone implements AparelhoTelefonico{
     
+    @Override
     public void ligarNumero(String numero){
         System.out.println("Ligando..." + " " + numero);
        
     }
 
+    @Override
     public void atender(){
         System.out.println("Atendendo ligação...");
     }
 
+    @Override
     public void iniciarCorreioVoz(){
         System.out.println("Iniciando Correio de Voz... PIII");
     }

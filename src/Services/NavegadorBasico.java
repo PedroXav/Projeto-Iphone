@@ -1,16 +1,21 @@
-package servico;
+package src.Services;
 
-import Projeto.NavegadorInternet;
+import src.Base.NavegadorInternet;
 
 public class NavegadorBasico implements NavegadorInternet{
+
+    @Override
     public void exibirPagina(String url){
-        System.out.println("Exibindo Página...");
+        System.out.println("Exibindo:" + " " + url);
     }
+
+    @Override
     public void adicionarNovaAba(){
         System.out.println("Adicionando Nova Aba...");
     }
 
-    public void atualizar(){
+    @Override
+    public void atualizarPagina(){
         System.out.println("Atualizando...");
     }
 }
