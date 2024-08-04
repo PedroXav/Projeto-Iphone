@@ -16,7 +16,7 @@ public class ReprodutorMusicalBasico implements ReprodutorMusical{
 
     @Override
     public void selecionarMusica(String musica){
-        System.out.println("Selecionando:" + " " + musica);
+        System.out.println("Música selecionada:" + " " + musica);
         tocarMusica();
     }
 }
