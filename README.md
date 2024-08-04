@@ -10,7 +10,5 @@ Neste projeto coloquei em prática os conceitos de programação orientada a obj
 
 # Visualização do projeto:
 
-<div align="center">
-<img style="height:600px; width:auto;" 
-  src="src/Image/">
-</div>
+ ![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/d29923a4-b662-4e07-861c-bde7a37dfb41)
+
